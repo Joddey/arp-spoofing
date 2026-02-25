@@ -29,7 +29,7 @@ router_ip = "192.168.1.1"    # Router's IP address
 Since low-level access to the network card is required, open your terminal as Administrator (Windows) or use Sudo (Linux/macOS):
 
 ```bash
-python your_script_name.py
+python arp-spoofing.py
 ```
 3. The Attack Process
 MAC Discovery: When started, the program sends an ARP request to the network to find the physical (MAC) addresses of the devices.
